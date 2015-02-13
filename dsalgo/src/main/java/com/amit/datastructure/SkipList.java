@@ -2,7 +2,8 @@ package com.amit.datastructure;
 
 import java.util.Random;
 
-
+//Whatever I understood from MIT's skipList lecture notes
+//needless to say any mistakes are my own
 @SuppressWarnings("unchecked")
 public class SkipList<T extends Comparable<T>> implements Set<T> {
 	private static final Random seedGenerator = new Random();
